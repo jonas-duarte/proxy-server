@@ -10,8 +10,6 @@ const http = require("http");
 const app = express();
 
 app.all("*", async (req, res) => {
-  console.log(req.url, req.originalUrl);
-
   // const { data } = await axios({
   //   ...req,
   // });
